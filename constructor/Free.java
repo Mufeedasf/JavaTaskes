@@ -3,24 +3,7 @@ class Free
 	String what;
 	String why;
 	boolean freeForAll;
-	Free()
-	{
-		this.what="bag";
-		this.why="Discount";
-		System.out.println("Free Created....");
-	}
-	Free(String what)
-	{
 	
-		this.what="Bottle";
-		System.out.println("what Updated..");
-	}
-	Free(String what,String why)
-	{
-		this.what=what;
-		this.why="offer";
-		System.out.println("what  and why Updated..");
-	}
 	Free(String what,String why,boolean freeForAll)
 	{
 		
