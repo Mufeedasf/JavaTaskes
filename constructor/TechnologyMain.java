@@ -3,7 +3,7 @@ class TechnologyMain
 public static void main(String[] args)
 {
 	System.out.println("Main Running");
-	Technology technology=new Technology();
+	Technology technology=new Technology("XML","yse","normal",4555,);
 	technology.display();
 	
 	Technology technology1=new Technology("Full-stack");
