@@ -13,7 +13,8 @@ class Technology
 	String data;
 	boolean avaliablity;
 	
-	Technology()
+	Technology(String name,String safety,String architechture,double cost,int intelligency,String lang,boolean quality,Sting size,int scalability,boolean connectivity,
+		  String data,boolean availability)
 	{
 		this.name="web";
 		this.safety="Present";
@@ -29,59 +30,6 @@ class Technology
 		this.avaliablity=false;
 		System.out.println("Technology Created....");
 	}
-	Technology(String name)
-	{
-	
-		this.name="web";
-		System.out.println("name Updated..");
-	}
-	Technology(String name,String safety)
-	{
-		this.name=name;
-		this.safety="NO";
-		System.out.println("name  and safety Updated..");
-	}
-	Technology(String size,String data,boolean quality)
-	{
-		
-		this.size=size;
-		this.data=data;
-		this.quality=quality;
-	
-		System.out.println("name  and safety & quality Updated..");
-	}
-	Technology(String architechture,double cost,String data,String lang)
-	{
-		
-		this.architechture=architechture;
-		this.cost=cost;
-		this.quality=quality;
-		this.lang="Java";
-	
-		System.out.println("name  and safety & quality & intelligency Updated..");
-	}
-	
-	Technology(String name,String safety,boolean quality,int intelligency)
-	{
-		
-		this.name=name;
-		this.safety=safety;
-		this.quality=quality;
-		this.intelligency=35;
-	
-		System.out.println("name  and safety & quality & intelligency Updated..");
-	}
-	Technology(boolean connectivity,int scalability,boolean avaliablity,int intelligency)
-	{
-		
-		this.connectivity=connectivity;
-		this.scalability=scalability;
-		this.avaliablity=avaliablity;
-		this.intelligency=35;
-	
-		System.out.println("name  and safety & quality & intelligency Updated..");
-	}
-	
 	
 	
 	
