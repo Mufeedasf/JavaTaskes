@@ -8,7 +8,14 @@ class Course
 	String lang;
 	boolean quality;
 	
-	Course()
+	Course(String name,
+	int duration,
+	String institute,
+	double cost,
+	String qualification,
+	String lang,
+	boolean quality,
+	)
 	{
 		this.name="Full-stack";
 		this.duration=30;
@@ -19,49 +26,6 @@ class Course
 		this.lang="Java";
 		System.out.println("Course Created....");
 	}
-	Course(String name)
-	{
-	
-		this.name="Traning";
-		System.out.println("name Updated..");
-	}
-	Course(String name,int duration)
-	{
-		this.name=name;
-		this.duration=28;
-		System.out.println("name  and duration Updated..");
-	}
-	Course(String name,int duration,boolean quality)
-	{
-		
-		this.name=name;
-		this.duration=duration;
-		this.quality=quality;
-	
-		System.out.println("name  and duration & quality Updated..");
-	}
-	Course(String institute,double cost,boolean quality,String lang)
-	{
-		
-		this.institute=institute;
-		this.cost=cost;
-		this.quality=quality;
-		this.lang="Java";
-	
-		System.out.println("name  and duration & quality & qualification Updated..");
-	}
-	
-	Course(String name,int duration,boolean quality,String qualification)
-	{
-		
-		this.name=name;
-		this.duration=duration;
-		this.quality=quality;
-		this.qualification="PG";
-	
-		System.out.println("name  and duration & quality & qualification Updated..");
-	}
-	
 	
 	
 	void display()
