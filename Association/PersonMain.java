@@ -10,7 +10,6 @@ public static void main(String args[])
 	
 	
 	Person person=new Person("Ajey",email);
-	person.show();
 	
 	String[] email1=new String[4];
 	email1[0]="ABC@gmail.com";
@@ -18,6 +17,8 @@ public static void main(String args[])
 	email1[2]="UVW@gmail.com";
 	
 	person.setEmail(email1);
+	person.show();
+	
 	System.out.println("Main Ending.....");
 	
 	
