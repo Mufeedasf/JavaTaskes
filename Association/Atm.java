@@ -40,8 +40,8 @@ void show()
 	{
 		for(int j=0;j<this.acs.length;j++)
 		{
-			 String val=this.branch[j];
-			System.out.println("branch is at:"+val);
+			 String val=this.acs[j];
+			System.out.println("Ac is:"+val);
 			
 		}
 	}
@@ -50,8 +50,8 @@ if(this.cctvBrands!=null)
 	{
 		for(int k=0;k<this.cctvBrands.length;k++)
 		{
-			 String val1=this.branch[k];
-			System.out.println("branch is at:"+val1);
+			 String val1=this.cctvBrands[k];
+			System.out.println(" Cctv brand is:"+val1);
 			
 		}
 		
