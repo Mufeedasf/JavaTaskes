@@ -1,7 +1,7 @@
 class Hardware
 {
 String name="Mouse";
-String type="Useable";
+String type="Wireless";
 Brand brand;
  
  void setBrand(Brand brand)
